@@ -1,0 +1,35 @@
+{
+  "name": "ledger-provider",
+  "version": "0.0.1-beta.0",
+  "description": "ledger nano hardware wallet provider. Sign and send tx using web3.js lib and ledger hardware wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "etheruem",
+    "ledger",
+    "wallet",
+    "ledger nano",
+    "hardware wallet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloq/ledger-provider.git"
+  },
+  "author": "manoj@bloq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloq/ledger-provider/issues"
+  },
+  "homepage": "https://github.com/bloq/ledger-provider#readme",
+  "dependencies": {
+    "@ledgerhq/hw-app-eth": "^5.11.0",
+    "@ledgerhq/hw-transport-node-hid": "^5.11.0",
+    "@ledgerhq/web3-subprovider": "^5.11.0",
+    "ethereumjs-tx": "^1.3.7",
+    "ethers": "^4.0.7",
+    "ethjs-abi": "^0.2.1",
+    "web3": "^1.2.6"
+  }
+}
