@@ -1,9 +1,16 @@
 # Ledger wallet provider
 
+Use ledger harware wallet with web3.js
+
 ## setup
 ```bash
 $ npm install bloq/ledger-provider --save    # Install local dependencies
 ```
+### Setup of ledger wallet
+- Connect ledger wallet with computer
+- Unlock wallet
+- Turn off browser support in eth app of wallet
+- Turn on contract data in eth app of wallet
 ## usage
 
 ```bash
