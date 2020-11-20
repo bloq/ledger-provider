@@ -18,7 +18,13 @@ const LedgerWalletProvider = require('ledger-provider')
 const Web3 = require("Web3");
 
 async function test() {
-    const ledgerWalletProvider = new LedgerWalletProvider(<rpcURL>)
+    const options = {
+        networkId: 1,
+        paths: ["44'/60'/0'/0/0"],
+        accountsLength: 1,
+        askConfirm: true,
+    }
+    const ledgerWalletProvider = new LedgerWalletProvider('http://localhost:8545', options)
 
     web3 = new Web3(ledgerWalletProvider)
     let accounts = await web3.eth.getAccounts()
