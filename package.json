@@ -1,7 +1,7 @@
 {
-  "name": "ledger-provider",
-  "version": "0.0.1-beta.0",
-  "description": "ledger nano hardware wallet provider. Sign and send tx using web3.js lib and ledger hardware wallet",
+  "name": "ledger-web3-provider",
+  "version": "1.0.0-beta.0",
+  "description": "Ledger nano hardware wallet provider. Sign and send tx using web3.js lib and ledger hardware wallet",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,9 @@
     "ledger",
     "wallet",
     "ledger nano",
-    "hardware wallet"
+    "hardware wallet",
+    "truffle provider",
+    "Hardware wallet"
   ],
   "repository": {
     "type": "git",
